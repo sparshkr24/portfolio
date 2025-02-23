@@ -12,6 +12,7 @@ const App = () => {
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           {/* <Hero /> */}
+          {/* <section id="Services" className="h-[120vh]"> */}
           <section id="Services" className="h-screen">
             <Parallax type="services" />
           </section>
