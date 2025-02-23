@@ -38,21 +38,31 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Get to know me</p>
-        <h2 className={styles.sectionHeadText}>About me.</h2>
+      <motion.div variants={textVariant()} className="flex flex-col md:flex-row items-center">
+        <div className="flex-1">
+          <p className={styles.sectionSubText}>Get to know me</p>
+          <h2 className={styles.sectionHeadText}>About me.</h2>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          >
+            I'm a backend-first, full-stack engineer, and a problem solver with 2 years of development experience.
+            Energetic, optimistic, and always up for a challenge - that's me! I take ownership of problems, 
+            adapt quickly, and deliver results, whether working solo or with a team.
+            Beyond code, I excel at communication and collaboration, ensuring ideas are clearly presented 
+            and discussions turn into action.
+          </motion.p>
+        </div>
+        <div className="flex-1 relative mt-10 md:mt-0 md:ml-10">
+          <div className="unique-shape bg-tertiary p-5 rounded-full">
+            <img
+              src="../../public/me.jpg"
+              alt="Your Name"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+        </div>
       </motion.div>
-
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
