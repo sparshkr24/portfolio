@@ -41,22 +41,22 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const skills = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Languages",
+    icon: javascript,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frameworks & Libraries",
+    icon: reactjs,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Databases",
+    icon: mongodb,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Tools",
+    icon: git,
   },
 ];
 
@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Scaler By InterviewBit",
     icon: scaler,
     iconBg: "#fff",
-    date: "Dec 2023 - Feb 2024",
+    date: "Dec 2023 - June 2024",
     points: [
       "Built and optimized scalable React components with Redux   & React Query, driving a 35% increase in user retention via Mixpanel analytics.",
       "Reviewed 50+ PRs, ensuring performance, quality, and scalability across production systems.",
@@ -160,9 +160,9 @@ const experiences = [
     company_name: "IIIT Jabalpur",
     icon: iiitj,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Developed 5+ ERP features for 3000+ users, enhancing the institute’s ERP software.",
+      "Developed 5+ ERP features for 3000+ users, enhancing the institute's ERP software.",
       "Optimized database schemas and backend logic, doubling performance and robustness of academic modules.",
       "Conducted code reviews, ensuring high-quality standards and maintainability.",
       "Tech Stack: Python, Django, PostgreSQL.",
@@ -263,4 +263,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { skills, technologies, experiences, testimonials, projects };
