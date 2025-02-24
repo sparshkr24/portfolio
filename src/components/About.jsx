@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { skills } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import me from "../assets/me.jpg";
 
 const ServiceCard = ({ index, title, icon }) => {
   const content = {
@@ -73,8 +74,8 @@ const About = () => {
         <div className="flex-1 relative mt-10 md:mt-0 md:ml-10">
           <div className="unique-shape bg-tertiary p-5 rounded-full">
             <img
-              src="../../public/me.jpg"
-              alt="Your Name"
+              src={me}
+              alt="Sparsh"
               className="w-80 h-80 object-cover rounded-full"
             />
           </div>

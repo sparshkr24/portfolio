@@ -23,10 +23,16 @@ import {
 
 import cybernet from "../assets/cybernet.png"
 import cineverse from "../assets/cineverse.png"
-import swipe from "../../public/swipe-circle.png"
-import scaler from "../../public/scaler.jpg"
-import security from "../../public/8ksec.png"
-import iiitj from "../../public/iiitj.png"
+import swipe from "../assets/swipe-circle.png"
+import scaler from "../assets/scaler.jpg"
+import security from "../assets/8ksec.png"
+import iiitj from "../assets/iiitj.png"
+
+// import cineverse from "../assets/cineverse.png"
+// import swipe from "../../public/swipe-circle.png"
+// import scaler from "../../public/scaler.jpg"
+// import security from "../../public/8ksec.png"
+// import iiitj from "../../public/iiitj.png"
 
 export const navLinks = [
   {
