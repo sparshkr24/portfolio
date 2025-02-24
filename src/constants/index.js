@@ -21,6 +21,8 @@ import {
   threejs,
 } from "../assets";
 
+import cybernet from "../assets/cybernet.png"
+import cineverse from "../assets/cineverse.png"
 import swipe from "../../public/swipe-circle.png"
 import scaler from "../../public/scaler.jpg"
 import security from "../../public/8ksec.png"
@@ -199,30 +201,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CyberNet",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A social networking website for programmers to connect and share ideas with each other. Implemented features like authentication, user profiles, posts, and comments",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Node.js",
+        color: "orange-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cybernet,
+    source_code_link: "https://github.com/sparshkr24/Cybernet2",
   },
   {
-    name: "Job IT",
+    name: "Cineverse",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Fully-Responsive and visually-stunning Movie viewing website. Integrated REST API of tmdb database of 140,000+ titles with 3+ categories like top-rated, upcoming etc.",
     tags: [
       {
         name: "react",
@@ -237,8 +243,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: cineverse,
+    source_code_link: "https://github.com/sparshkr24/CineVerse",
   },
   {
     name: "Trip Guide",
@@ -250,16 +256,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "postgresQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/sparshkr24",
   },
 ];
 
