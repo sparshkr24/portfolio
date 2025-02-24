@@ -125,9 +125,9 @@ const experiences = [
     iconBg: "#fff",
     date: "July 2024 - Ongoing",
     points: [
-      "Optimized internal sales workflows, integrating Acefone (VoIP/IVR) and automation tools, boosting sales efficiency 4x.",
-      "Ensured data integrity in inventory transactions, identifying bugs via sanity scripts and backfilling 10M+ records using parallel processing, batching and bulk operations.",
       "Developed 15+ ERP features, including document tracking, multi-tax support, and scalable bulk uploads for 10K+ entries.",
+      "Ensured data integrity in inventory transactions, identified bugs via sanity scripts and backfilled 10M+ records using parallel processing, batching and bulk operations.",
+      "Optimized internal sales workflows, integrating automation and marketing campaign tools, boosting sales efficiency 4x.",
       "Tech Stack: Typescript, React, Tailwind, Python, Flask, OOPs, Threads, MySQL, Azure, Git.",
     ],
   },
@@ -138,9 +138,8 @@ const experiences = [
     iconBg: "#fff",
     date: "Dec 2023 - June 2024",
     points: [
-      "Built and optimized scalable React components with Redux   & React Query, driving a 35% increase in user retention via Mixpanel analytics.",
-      "Reviewed 50+ PRs, ensuring performance, quality, and scalability across production systems.",
-      "Streamlined feature delivery by 30% through PRDs, TRDs, and seamless cross-team collaboration.",
+      "Built scalable React components with Redux & React Query, driving a 35% increase in user retention via Mixpanel analytics.",
+      "Participated in code reviews, ensuring performance, quality, and scalability across production systems.",
       "Tech Stack: HTML5, SCSS, React, Redux, JavaScript, MySQL, RoR, AWS, Git, Jira.",
     ],
   },
@@ -151,7 +150,7 @@ const experiences = [
     iconBg: "#000000",
     date: "May 2023 - Oct 2023",
     points: [
-      "Led a 3-member team to build a fraud detection app from scratch, taking full ownership of development.",
+      "Led a team to build a fraud detection app from scratch, taking full ownership of development.",
       "Enhanced data visualization with 10+ interactive charts/maps, reducing API calls by 30% via optimized Redux state management.",
       "Automated messaging queues and cron jobs within an event-driven Python architecture.",
       "Tech Stack: TypeScript, Next.js, Node, Python, PostgreSQL, AWS, GitHub Actions.",

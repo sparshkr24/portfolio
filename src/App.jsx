@@ -1,14 +1,15 @@
 import { BrowserRouter } from "react-router-dom";
 
 import "./app.scss";
-import { About, Contact, Experience, Hero, Feedbacks, Navbar, Tech, Works, StarsCanvas } from "./components";
-// import Hero2 from "./components/Hero2";
+import { About, Contact, Experience, Navbar, Works, StarsCanvas, Footer } from "./components";
 import Parallax from "./components/parallax/Parallax";
+import FloatingDock from "./components/floatingDock/FloatingDock";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
+        <FloatingDock />
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           {/* <Hero /> */}
@@ -27,6 +28,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
